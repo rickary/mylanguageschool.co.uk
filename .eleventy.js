@@ -1,7 +1,12 @@
-module.exports = {
-  dir: {
-    // ⚠️ These values are both relative to your input directory.
-    includes: "_includes",
-    layouts: "_layouts"
-  }
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("admin");
+
+  return {
+    passthroughFileCopy: true,
+    dir: {
+      includes: "_includes",
+      layout: "_layouts",
+      output: "_site"
+    }
+  };
 };
