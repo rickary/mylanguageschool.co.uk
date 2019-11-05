@@ -1,0 +1,39 @@
+//	Set
+//  ===
+
+// 	For:
+//	Just starting a couple of things off
+
+
+
+//	Box-Sizing
+//	Images
+
+
+
+
+
+//------------------------------------//
+//  Box-Sizing
+//------------------------------------//
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  	  -ms-box-sizing: border-box;
+  	      box-sizing: border-box;
+}
+
+
+
+
+
+//------------------------------------//
+//  Images
+//------------------------------------//
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	width: 100%;
+}

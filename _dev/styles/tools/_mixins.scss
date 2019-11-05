@@ -1,0 +1,40 @@
+//	Mixins
+//  ======
+
+
+
+
+
+//------------------------------------//
+//  Font Size
+//------------------------------------//
+
+@mixin rem($attribute, $value) {
+	#{$attribute}: #{$value}px;
+	#{$attribute}: #{$value / 16}rem;
+}
+
+@mixin font_size($size) {
+	@include rem(font-size, $size);
+}
+
+
+
+
+
+//------------------------------------//
+//  Media Query
+//------------------------------------//
+
+@mixin mq($point, $query1: min, $query2: width) {
+    
+    @if $query1 == max {
+        @media screen and (#{$query1}-#{$query2}: $point - 1px) {
+            @content;
+        }
+    } @else {
+        @media screen and (#{$query1}-#{$query2}: $point) {
+            @content;
+        }
+    }
+}
