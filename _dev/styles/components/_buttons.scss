@@ -1,0 +1,44 @@
+//  Buttons
+//  =======
+
+//  Hat-Tip:
+//  Loosely Based on beautons - a beautifully simple button toolkit.
+//  LICENSE - http://apache.org/licenses/LICENSE-2.0
+//  Copyright 2013 Harry Roberts
+//  @csswizardry -- csswizardry.com/beautons
+
+//  Modified by me
+
+
+//------------------------------------//
+//  Basic
+//------------------------------------//
+
+.c-btn {
+  @include font-size(14);
+  appearance: none;
+  border-radius: 200px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-family;
+  font-weight: $font-weight-bold;
+  padding: 1rem 3rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  
+  &, 
+  &:hover,
+  &:focus {
+      text-decoration: none;      // [9]
+  }
+  
+  &:active,
+  &:visited {
+      outline: none
+  }
+}
+
+.c-btn--theme {
+  background-color: $color-theme;
+  color: white;
+}

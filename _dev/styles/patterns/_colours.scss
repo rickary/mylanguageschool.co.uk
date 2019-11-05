@@ -1,0 +1,12 @@
+.p-colour-list {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.p-colour {
+  padding-bottom: 25%;
+}
+
+  .p-colour--text   { background-color: $color-text; }
+  .p-colour--theme  { background-color: $color-theme;}

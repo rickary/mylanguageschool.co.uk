@@ -2,9 +2,10 @@
 //  Families
 //------------------------------------//
 
-$font-family              : Helvetica, Arial, sans-serif;
-$heading-font-family 			: Helvetica, sans-serif;	
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap');
 
+$font-family              : 'Montserrat', sans-serif;
+$heading-font-family 			: 'Montserrat', sans-serif;	
 
 
 
@@ -15,6 +16,21 @@ $heading-font-family 			: Helvetica, sans-serif;
 
 $font-size                 		: 16;
 $line-height               		: 1.5;
+
+@mixin font($size) {
+  @if $size == xl {
+    @include font-size(43);
+    font-weight: bold;
+    line-height: 1.2;
+  } @else if $size == l {
+    @include font-size(32);
+    font-weight: bold;
+    line-height: 1.1875;
+  } @else if $size == s {
+    @include font-size(12);
+    
+  }
+}
 
 
 

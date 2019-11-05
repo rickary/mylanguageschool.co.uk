@@ -1,0 +1,6 @@
+.c-label {
+  @include font(s);
+  display: block;
+  font-weight: $font-weight-bold;
+  margin-bottom: .5rem;
+}
