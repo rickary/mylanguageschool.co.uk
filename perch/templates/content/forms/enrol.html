@@ -9,6 +9,27 @@
     <perch:error for="name" type="required">Please add your name</perch:error>
   </p>
 
+  <p class="p-form-field">
+    <perch:label for="email" class="c-label">Email Address</perch:label>
+    <perch:input type="text" id="email" required label="email" class="c-input">
+    <perch:error for="email" type="required">Please add your email address</perch:error>
+  </p>
+
+  <p class="p-form-field">
+    <perch:label for="location" class="c-label">Your Location</perch:label>
+    <perch:input type="select" id="name" label="Name" class="c-select" options="Spain, Poland, Italy, China">
+  </p>
+
+  <p class="p-form-field">
+    <perch:label for="interest" class="c-label">Interested in</perch:label>
+    <perch:input type="select" id="interest" label="Interested in" class="c-select" options="General English, Business English, Local Tour" />
+  </p>
+
+  <p class="p-form-field">
+    <perch:label for="notes" class="c-label">Notes</perch:label>
+    <perch:input type="textarea" id="notes" label="Notes" class="c-textarea" />
+  </p>
+
   <p class="p-form-field is-special">
     <label for="special" class="c-label">This is a special input field. If you are human, do not complete it.</label>
     <input type="text" id="special" antispam="honeypot" class="c-input" />

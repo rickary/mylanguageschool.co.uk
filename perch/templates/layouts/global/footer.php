@@ -3,7 +3,7 @@
   <div class="l-container l-container--medium">
     <div class="l-footer__inner">
       <div class="l-footer__info">
-
+        <?php perch_content('Footer Info'); ?>
       </div>
       <div class="l-footer__form">
         <?php perch_layout('global/form'); ?>
