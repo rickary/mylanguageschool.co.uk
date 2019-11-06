@@ -462,5 +462,15 @@
     "Delete all content from this collection immediately": "Delete all content from this collection immediately",
     "No content yet?": "No content yet?",
     "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.": "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.",
-    "Read the getting started guide to find out more": "Read the getting started guide to find out more"
+    "Read the getting started guide to find out more": "Read the getting started guide to find out more",
+    "Home page": "Home page",
+    "Editing Shared Regions": "Editing Shared Regions",
+    "Move the page to this location": "Move the page to this location",
+    "Editing navigation group": "Editing navigation group",
+    "Creating New Navigation Group": "Creating New Navigation Group",
+    "Your navigation group has been successfully created.": "Your navigation group has been successfully created.",
+    "Editing \u2018%s\u2019 Navigation Group": "Editing \u2018%s\u2019 Navigation Group",
+    "Group Options": "Group Options",
+    "Your navigation group has been successfully updated.": "Your navigation group has been successfully updated.",
+    "Subpage folder": "Subpage folder"
 }

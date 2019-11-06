@@ -1,0 +1,26 @@
+<perch:form id="contact" method="post" app="perch_forms" class="p-form">
+  <div class="p-form-body">
+    <perch:content id="intro" type="textarea" label="Intro" markdown editor="simplemde" size="s"></perch:content> 
+  </div>
+
+  <p class="p-form-field">
+    <perch:label for="name" class="c-label">Name</perch:label>
+    <perch:input type="text" id="name" required label="Name" class="c-input">
+    <perch:error for="name" type="required">Please add your name</perch:error>
+  </p>
+
+  <p class="p-form-field is-special">
+    <label for="special" class="c-label">This is a special input field. If you are human, do not complete it.</label>
+    <input type="text" id="special" antispam="honeypot" class="c-input" />
+  </p>
+
+  <p class="p-form-field">
+    <perch:input type="submit" id="submit" value="Send" class="c-btn c-btn--theme" />
+  </p>
+
+  <perch:success>
+    <div class="p-form-body is-success">
+      <perch:content id="success" type="textarea" label="Thank You Message" markdown editor="simplemde" size="s"></perch:content>
+    </div>
+  </perch:success>
+</perch:form>

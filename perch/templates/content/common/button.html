@@ -1,0 +1,8 @@
+<perch:content id="btn_url" label="Button URL" divider-before="Button" suppress="true" />
+<perch:content id="btn_label" label="Button Label" suppress="true" />
+<perch:content id="btn_type" type="select" options="default, error" label="Button Type" suppress="true" />
+<perch:content id="btn_window" type="checkbox" value="true" suppress="true" label="Open in a new window?" />
+
+<a href="<perch:content id="btn_url" />" class="c-btn c-btn--<perch:content id="btn_type" />" <perch:if id="btn_window" value="true" match="eq">target="_blank"</perch:if>>
+  <perch:content id="btn_label" />
+</a>

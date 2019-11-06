@@ -7,7 +7,7 @@
   
   <link rel="stylesheet" href="/assets/css/master.css?v0.4" />
 
-  <title><?php perch_layout_var('title'); ?></title>
+  <title><?php perch_pages_title(true); ?></title>
 
   <?php perch_page_attributes(); ?>
 </head>
