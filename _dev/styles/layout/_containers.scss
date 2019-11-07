@@ -1,0 +1,23 @@
+.l-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.l-container--large {
+  max-width: $container--large;
+}
+
+.l-container--medium {
+  max-width: $container--medium;
+}
+
+.l-container--small {
+  max-width: $container--small;
+}
+
+section + section {
+  margin-top: 80px;
+  padding-top: 80px;
+}

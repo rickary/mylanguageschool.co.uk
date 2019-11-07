@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap');
+
+:root {
+  --base-font-family    :   'Montserrat', sans-serif;
+  --base-font-size      :   1.6rem;
+  --base-font-weight    :   300;
+  --base-line-height    :   1.5;
+
+  --font--xxl-size      :   4.3rem;
+  --font--xxl-weight    :   700;
+  --font--xxl-lh        :   1.2;
+  
+  --font--xl-size       :   3.2rem;
+  --font--xl-weight     :   700;
+  --font--xl-lh         :   1.1875;
+  
+  --font--l-size        :    2.2rem;
+  --font--l-weight      :    400;
+  --font--l-lh          :    var(--base-line-height);
+  
+  --font--m-size        :    1.6rem;
+  --font--m-weight      :    var(--base-font-weight);
+  --font--m-lh          :    var(--base-line-height);
+  
+  --font--s-size        :    1.2rem;
+  --font--s-weight      :    var(--base-font-weight);
+  --font--s-lh          :    var(--base-line-height);
+}
+

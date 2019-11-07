@@ -3,20 +3,28 @@
   "version": "1.0.0",
   "description": "Copyright 2019 Rick Chadwick",
   "private": true,
+  "dependencies": {
+    "@rickary/my-language-school-fractal": "github:rickary/mylanguageschool-fractal"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "",
-    "gulp-concat": "",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.0",
-    "gulp-header": "",
-    "gulp-jshint": "",
-    "gulp-notify": "",
-    "gulp-sass": "",
-    "gulp-sass-glob": "",
-    "gulp-uglify": "",
-    "jshint": "",
-    "minimatch": "^3.0.2"
+    "gulp-header": "^2.0.9",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.3",
+    "minimatch": "^3.0.2",
+    "postcss-custom-properties": "^9.0.2"
   },
+  "browserslist": [
+    "last 2 versions"
+  ],
   "author": {
     "email": "rick@madeinbeta.co.uk",
     "name": "rickary"

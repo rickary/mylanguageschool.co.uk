@@ -472,5 +472,10 @@
     "Editing \u2018%s\u2019 Navigation Group": "Editing \u2018%s\u2019 Navigation Group",
     "Group Options": "Group Options",
     "Your navigation group has been successfully updated.": "Your navigation group has been successfully updated.",
-    "Subpage folder": "Subpage folder"
+    "Subpage folder": "Subpage folder",
+    "File name": "File name",
+    "Page already exists, or is a link only": "Page already exists, or is a link only",
+    "This page will have more pages below it": "This page will have more pages below it",
+    "Folder is not writable: \/Users\/Rick\/websites\/mylanguageschool.co.uk\/learning-experiences-1": "Folder is not writable: \/Users\/Rick\/websites\/mylanguageschool.co.uk\/learning-experiences-1",
+    "Sorry, that page could not be created.": "Sorry, that page could not be created."
 }

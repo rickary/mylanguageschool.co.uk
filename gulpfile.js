@@ -9,6 +9,8 @@ var gulp = require("gulp"),
   cssnano = require("gulp-cssnano"),
   concat = require("gulp-concat"),
   uglify = require("gulp-uglify"),
+  postcss = require("gulp-postcss"),
+  postcssCustomProperties = require("postcss-custom-properties"),
   jshint = require("gulp-jshint");
 
 //	Setup Banner
@@ -32,7 +34,14 @@ gulp.task("sass", function() {
         this.emit("end");
       })
     )
+    .pipe(
+      autoprefixer({
+        grid: true,
+        flexbox: true
+      })
+    )
     .pipe(header(banner, { pkg: pkg }))
+    .pipe(postcss([postcssCustomProperties()]))
     .pipe(gulp.dest("assets/css/"));
 });
 

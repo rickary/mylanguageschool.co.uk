@@ -1,0 +1,24 @@
+.l-hero {
+  padding-top: 160px;
+}
+
+.l-hero__inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-hero__body {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 37%;
+
+  .c-btn {
+    margin-top: 2rem;
+  }
+}
+
+.l-hero__image {
+  width: 60%;
+}

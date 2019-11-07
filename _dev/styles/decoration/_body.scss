@@ -1,0 +1,15 @@
+body {
+  &:before {
+		background-image: url('/assets/img/bg.svg');
+		background-position: right top;
+		background-repeat: no-repeat;
+		content: '';
+		display: block;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+	}
+}
