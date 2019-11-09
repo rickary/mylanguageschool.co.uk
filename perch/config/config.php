@@ -1,10 +1,26 @@
 <?php
     define('PERCH_LICENSE_KEY', 'P21407-YQW506-FNG778-FPD603-PUE023');
 
-    define("PERCH_DB_USERNAME", 'root');
-    define("PERCH_DB_PASSWORD", 'root');
-    define("PERCH_DB_SERVER", "localhost");
-    define("PERCH_DB_DATABASE", "mls");
+    $http_host = getenv('HTTP_HOST');
+
+    switch($http_host)
+    {
+    case('local.mylanguageschool.co.uk') :
+
+        define("PERCH_DB_USERNAME", 'root');
+        define("PERCH_DB_PASSWORD", 'root');
+        define("PERCH_DB_SERVER", "localhost");
+        define("PERCH_DB_DATABASE", "mls");
+        break;
+
+    default :
+        define("PERCH_DB_USERNAME", 'mylanguageschool');
+        define("PERCH_DB_PASSWORD", 'iNc.wBIvKMxY6uK5aqFUWEYT');
+        define("PERCH_DB_SERVER", "mylanguageschool.mysql.eu2.frbit.com");
+        define("PERCH_DB_DATABASE", "mylanguageschool");
+        break;
+    }
+
     define("PERCH_DB_PREFIX", "perch3_");
     
     define('PERCH_TZ', 'UTC');
