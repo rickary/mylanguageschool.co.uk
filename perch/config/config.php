@@ -5,7 +5,7 @@
 
     switch($http_host)
     {
-    case('local.mylanguageschool.co.uk') :
+    case('local.mylanguageschool.co.uk:8888') :
 
         define("PERCH_DB_USERNAME", 'root');
         define("PERCH_DB_PASSWORD", 'root');
