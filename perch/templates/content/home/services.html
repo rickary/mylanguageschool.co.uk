@@ -1,19 +1,3 @@
-<section class="l-container l-container--small l-split">
-  <div class="l-split-container p-services">
-    <div class="l-split-item l-split-item__body c-wysiwyg">
-      <h2><perch:content id="title" label="Heading" type="text" title="true" /></h2>
-      <p><perch:content id="intro" label="Intro" type="text" size="xl" /></p>
-      <ul>
-        <perch:repeater id="bullets" label="Bullets">
-          <li><a href="<perch:content id="url" label="URL" />"><perch:content id="label" label="Label" /> </a></li>
-        </perch:repeater>
-      </ul>
-    </div>
-
-    <div class="l-split-item l-split-item__img">
-      <img src="<perch:content id="image" type="image" label="Image" help="use optimised .svg" />" alt="" />
-    </div>
-  </div>
-</section>
-
-
+<perch:content id="title" label="Heading" type="text" title="true" />
+<perch:content id="intro" label="Intro" type="text" size="xl" />
+<perch:template path="/content/common/image--svg.html" />

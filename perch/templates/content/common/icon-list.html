@@ -1,0 +1,25 @@
+<perch:repeater id="icon_list" label="Icon List">
+  <perch:before>
+      <ul class="c-icon-list">
+  </perch:before>
+
+    <li class="c-icon-list__item">
+      <perch:if exists="url">
+        <a href="<perch:content id="url" type="text" label="URL" help="optional" />" class="c-icon-list__link">
+      </perch:if>
+        <span class="c-icon-list__icon">
+          <perch:content id="icon" type="image" help="use .svg" output="tag" include="inline" />
+        </span>
+
+        <span class="c-icon-list__label">
+          <perch:content id="label" label="Text" type="text" />
+        </span>
+      <perch:if exists="url">
+        </a>
+      </perch:if>
+    </li>
+
+  <perch:after>
+    </ul>
+  </perch:after>
+</perch:repeater>

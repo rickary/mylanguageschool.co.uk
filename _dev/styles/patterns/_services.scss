@@ -1,0 +1,30 @@
+.p-services {
+  .c-icon-list__icon {
+    svg {
+      fill: var(--color-primary);
+      width: 12px;
+    }
+  }
+
+  .c-icon-list__link {
+    color: var(--color-primary);
+    font-weight: 400;
+
+    &:hover,
+    &:focus {
+      .c-icon-list__label {
+        text-decoration: underline;
+      } 
+    }
+  }
+}
+
+.p-services__title {
+  @include font(xl);
+  margin-bottom: var(--space--l);
+}
+
+.p-services__intro {
+  @include font(m);
+  margin-bottom: var(--space--m);
+}

@@ -1,0 +1,26 @@
+.p-banner {
+  background: white;
+  box-shadow: 0 0 18px rgba(black, 0.1); 
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.p-banner__inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--space--m);
+  padding-left: var(--space--l);
+  padding-right: var(--space--l);
+  padding-top: var(--space--m);
+}
+
+.p-banner__logo {
+
+}
+
+.p-banner__nav {
+  
+}

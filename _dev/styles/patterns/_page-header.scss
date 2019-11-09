@@ -1,0 +1,22 @@
+.p-page-header {
+
+}
+
+.p-page-header__title {
+  @include font(xxl);
+  orphans: 2;
+}
+
+.p-page-header__intro {
+  @include font(l);
+  margin-top: var(--space--l);
+  
+}
+
+.p-page-header .c-icon-list {
+  margin-top: var(--space--m);
+}
+
+.p-page-header .c-btn {
+  margin-top: var(--space--l);
+}

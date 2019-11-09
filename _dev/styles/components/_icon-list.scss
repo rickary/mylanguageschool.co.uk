@@ -1,0 +1,31 @@
+.c-icon-list {
+  @include font(m);
+}
+
+.c-icon-list__item {
+  align-items: center;
+  display: flex;
+
+  + .c-icon-list__item {
+    margin-top: var(--space--s);
+  }
+}
+
+// optional
+.c-icon-list__link {
+
+}
+
+.c-icon-list__icon {
+  flex-basis: 32px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+  .c-icon-list__icon--tick {
+    fill: var(--color-primary);
+  }
+
+.c-icon-list__label {
+  margin-left: var(--space--s);
+}

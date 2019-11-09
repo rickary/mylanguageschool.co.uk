@@ -1,0 +1,18 @@
+.p-course-detail {
+  .c-card__header {
+    border-bottom: solid 1px var(--color-border);
+    margin-bottom: var(--space--m);
+    padding-bottom: var(--space--m);
+  }
+
+  .c-card__title {
+    @include font(l);
+  }
+
+  .c-wysiwyg {
+    dl {}
+    dl div {}
+    dt {}
+    dd {}
+  }
+}

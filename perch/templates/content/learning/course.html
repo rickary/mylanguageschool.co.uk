@@ -1,0 +1,15 @@
+<div class="c-card p-course-detail">
+  <div class="c-card__header">
+    <h2 class="c-card__title"><perch:content id="title" label="Title" type="text" /></h2>
+  </div>
+  <div class="c-card__body c-wysiwyg">
+    <perch:repeater id="detail" label="Detail List">
+      <perch:before><dl></perch:before>
+        <div>
+          <dt><perch:content id="heading" label="Heading" /></dt>
+          <dd><perch:content id="detail" label="Detial" /></dd>
+        </div>
+      <perch:after></dl></perch:after>
+    </perch:repeater>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.l-flex-split {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .l-flex-split--center {
+    align-items: center;
+  }
+
+.l-flex-split--small {
+
+  .l-flex-split__inner {
+    width: 44%;
+  }
+}

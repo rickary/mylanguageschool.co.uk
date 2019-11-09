@@ -477,5 +477,13 @@
     "Page already exists, or is a link only": "Page already exists, or is a link only",
     "This page will have more pages below it": "This page will have more pages below it",
     "Folder is not writable: \/Users\/Rick\/websites\/mylanguageschool.co.uk\/learning-experiences-1": "Folder is not writable: \/Users\/Rick\/websites\/mylanguageschool.co.uk\/learning-experiences-1",
-    "Sorry, that page could not be created.": "Sorry, that page could not be created."
+    "Sorry, that page could not be created.": "Sorry, that page could not be created.",
+    "New pages should": "New pages should",
+    "Reference this master page": "Reference this master page",
+    "Copy this master page": "Copy this master page",
+    "Navigation group pages": "Navigation group pages",
+    "Editing \u2018%s\u2019 navigation group": "Editing \u2018%s\u2019 navigation group",
+    "Reordering pages": "Reordering pages",
+    "Drag and drop the pages to reorder them.": "Drag and drop the pages to reorder them.",
+    "Page orders successfully updated.": "Page orders successfully updated."
 }

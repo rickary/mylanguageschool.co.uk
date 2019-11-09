@@ -1,0 +1,18 @@
+<perch:before>
+  <div class="c-sub-nav">
+    <ul class="c-sub-nav__list">
+</perch:before>
+
+<li class="c-sub-nav__item <perch:if exists="current_page">is-active</perch:if>">
+  <a href="<perch:pages id="pagePath" />" class="c-sub-nav__link">
+    <svg viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"  class="c-sub-nav__icon">
+      <polygon points="17 0.969 33.031 17 17 33.031 14.187 30.218 25.343 18.968 0.968 18.968 0.968 15.03 25.343 15.03 14.187 3.78"></polygon>
+    </svg>
+    <perch:pages id="pageNavText" />
+  </a>
+</li>
+
+<perch:after>
+    </ul>
+  </div>
+</perch:after>

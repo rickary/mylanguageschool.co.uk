@@ -1,3 +1,29 @@
 .l-page-header {
-  padding-top: 160px;
+  padding-top: 240px;
 }
+
+  .home .l-page-header {
+    padding-top: 160px;
+  }
+
+.l-page-header__inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-page-header__body {
+  width: 50%;
+}
+
+.l-page-header__img {
+  width: 35%;
+}
+
+  .home .l-page-header__body {
+    width: 37%;
+  }
+
+  .home .l-page-header__img {
+    width: 60%;
+  }

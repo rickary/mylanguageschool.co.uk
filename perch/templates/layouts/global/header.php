@@ -27,12 +27,45 @@
       </svg>    
     </a>
 
-    <nav class="p-banner__nav">
-      <?php
-        perch_pages_navigation(array(
-          'navgroup' => 'header',
-        )); 
-      ?>
+    <nav class="p-banner__nav" role="navigation">
+      <ul class="c-nav">
+        <?php
+          perch_pages_navigation(array(
+            'navgroup' => 'header',
+          )); 
+        ?>
+        <li class="c-nav__item has-sub-nav">
+          <span class="c-nav__link no-link">Learning Experiences</span>
+          <?php
+            perch_pages_navigation(array(
+              'navgroup' => 'learning-experiences',
+              'template' => 'sub-nav.html'
+            )); 
+          ?>
+        </li>
+        <li class="c-nav__item has-sub-nav">
+          <span class="c-nav__link no-link">Schools</span>
+          <?php
+            perch_pages_navigation(array(
+              'navgroup' => 'schools',
+              'template' => 'sub-nav.html'
+            )); 
+          ?>
+        </li>
+        <li class="c-nav__item has-sub-nav">
+          <span class="c-nav__link no-link">Tours</span>
+          <?php
+            perch_pages_navigation(array(
+              'navgroup' => 'tours',
+              'template' => 'sub-nav.html'
+            )); 
+          ?>
+        </li>
+        <li class="c-nav__item">
+          <a href="#contact" class="c-nav__link c-nav__link--btn">Contact</a>
+        </li>
+      </ul>
+      
     </nav>
   </div>
 </header>
