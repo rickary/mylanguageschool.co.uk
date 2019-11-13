@@ -47,6 +47,16 @@
     display: flex;
     flex-direction: column;
 
+    &:after {
+      content: '';
+      left: 0;
+      top: 30px;
+      display: block;
+      height: 20px;
+      width: 100%;
+      position: absolute;
+    }
+
     &:hover {
       .c-sub-nav {
         display: block;

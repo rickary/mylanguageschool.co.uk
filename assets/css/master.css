@@ -720,6 +720,14 @@ sans-serif;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .c-nav__item.has-sub-nav:after {
+    content: '';
+    left: 0;
+    top: 30px;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: absolute; }
   .c-nav__item.has-sub-nav:hover .c-sub-nav {
     display: block;
     opacity: 1; }
