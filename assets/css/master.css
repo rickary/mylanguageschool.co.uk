@@ -581,11 +581,11 @@ sans-serif;
   color: #000000;
   color: var(--form-label-color);
   display: block;
-  font-size: 1.6rem;
-  font-size: var(--form-font-size);
-  font-weight: 300;
-  font-weight: var(--form-font-weight);
-  margin-bottom: 4px;
+  font-size: 14px;
+  font-size: var(--form-label-size);
+  font-weight: 400;
+  font-weight: var(--form-label-weight);
+  margin-bottom: 8px;
   margin-bottom: var(--form-label-margin); }
 
 .p-form {
@@ -652,10 +652,18 @@ sans-serif;
   --font--s-weight:    var(--base-font-weight);
   --font--s-lh:    var(--base-line-height); }
 
+.c-btn {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
 :root {
   --card__border-style: none; }
 
 :root {
+  --form-label-size: 14px;
+  --form-label-weight: 400;
+  --form-label-margin: var(--space--s);
   --form-border-radius: 0;
   --form-select-appearance: none;
   --form-select-carat: url('data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9Ijc2OCIgaGVpZ2h0PSI3NjgiIHZpZXdCb3g9IjAgMCA3NjggNzY4Ij4KPHRpdGxlPjwvdGl0bGU+CjxnIGlkPSJpY29tb29uLWlnbm9yZSI+CjwvZz4KPHBhdGggZD0iTTUzMSAyNzQuNWw0NSA0NS0xOTIgMTkyLTE5Mi0xOTIgNDUtNDUgMTQ3IDE0N3oiPjwvcGF0aD4KPC9zdmc+Cg=='); }
@@ -760,6 +768,7 @@ sans-serif;
   font-size: var(--nav-link--btn__size);
   font-weight: bold;
   font-weight: var(--nav-link--btn__weight);
+  letter-spacing: 1px;
   margin-left: 16px;
   margin-left: var(--nav-item__margin);
   padding: 16px 48px;
@@ -869,6 +878,9 @@ sans-serif;
   .c-icon-list__item + .c-icon-list__item {
     margin-top: 8px;
     margin-top: var(--space--s); }
+
+body.home .p-page-header .c-icon-list__item + .c-icon-list__item {
+  margin-top: 0; }
 
 .c-icon-list__icon {
   -ms-flex-preferred-size: 32px;
@@ -1085,7 +1097,7 @@ section + section {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  width: 37%; }
+  width: 40%; }
   .l-hero__body .c-btn {
     margin-top: 2rem; }
 
@@ -1150,7 +1162,7 @@ section + section {
   width: 35%; }
 
 .home .l-page-header__body {
-  width: 37%; }
+  width: 40%; }
 
 .home .l-page-header__img {
   width: 60%; }
