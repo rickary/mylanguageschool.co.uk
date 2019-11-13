@@ -37,6 +37,9 @@
       }
       console.log(scrollpos);
   });
+
+  //  Nav Trigger
+  var navTrigger=document.querySelector(".js-triggerNav");navTrigger.addEventListener("click",function(e){e.preventDefault(),document.body.classList.toggle("nav-active")});
 </script>
 
 </body>

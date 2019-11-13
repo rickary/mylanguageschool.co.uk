@@ -15,12 +15,69 @@
   padding-left: var(--space--l);
   padding-right: var(--space--l);
   padding-top: var(--space--m);
+
+  @include mq($bp--small, max) {
+    padding-bottom: var(--space--s);
+    padding-left: var(--space--m);
+    padding-right: var(--space--m);
+    padding-top: var(--space--s);
+  }
 }
 
 .p-banner__logo {
-
+  @include mq($bp--small, max) {
+    svg { width: 150px;}
+  }
 }
 
 .p-banner__nav {
-  
+  @include mq($bp--nav, max) {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 2;
+    background: white;
+    border-left: solid 1px var(--color-border);
+    height: 100%;
+    width: 300px;
+    transition: right 0.3s ease-in-out;
+  }
+}
+
+body.nav-active .p-banner__nav {
+  @include mq($bp--nav, max) {
+    right: 0;
+  }
+}
+
+
+
+.p-banner__trigger {
+  display: none;
+  position: relative;
+  z-index: 3;
+
+  @include mq($bp--nav, max) {
+    appearance: none;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    display: block;
+
+    span {
+      @include burger(24px, 4px, 4px, black);
+    }
+  }
+}
+
+body.nav-active .p-banner__trigger {
+  @include mq($bp--nav, max) {
+    span { 
+      @include burger-to-cross;
+
+      &::before, &::after {
+        background-color: black;
+      }
+    }
+  }
 }

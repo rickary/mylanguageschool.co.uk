@@ -67,5 +67,9 @@
       </ul>
       
     </nav>
+
+    <button class="p-banner__trigger js-triggerNav">
+      <span></span>
+    </button>
   </div>
 </header>
