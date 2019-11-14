@@ -1,6 +1,6 @@
-<section class="l-container l-container--small l-split">
-  <div class="l-split-container p-services">
-    <div class="l-split-item l-split-item__body">
+<section class="l-container l-container--small l-split-alternate">
+  <div class="l-flex-split l-flex-split--center l-flex-split--small p-services">
+    <div class="l-flex-split__inner l-split-item__body">
       <?php perch_content('Learning Experiences', [
         'template' => 'home/services-intro.html'
       ]); ?>
@@ -14,7 +14,7 @@
       
     </div>
 
-    <div class="l-split-item l-split-item__img">
+    <div class="l-flex-split__inner l-split-item__img">
       <?php perch_content('Learning Experiences', [
         'template' => 'home/services-img.html'
       ]); ?>
@@ -22,9 +22,9 @@
   </div>
 </section>
 
-<section class="l-container l-container--small l-split">
-  <div class="l-split-container p-services">
-    <div class="l-split-item l-split-item__body">
+<section class="l-container l-container--small l-split-alternate">
+  <div class="l-flex-split l-flex-split--center l-flex-split--small p-services">
+    <div class="l-flex-split__inner l-split-item__body">
       <?php perch_content('Schools', [
         'template' => 'home/services-intro.html'
       ]); ?>
@@ -38,7 +38,7 @@
     
     </div>
 
-    <div class="l-split-item l-split-item__img">
+    <div class="l-flex-split__inner l-split-item__img">
       <?php perch_content('Schools', [
         'path' => '/',
         'template' => 'home/services-img.html'
@@ -47,9 +47,9 @@
   </div>
 </section>
 
-<section class="l-container l-container--small l-split">
-  <div class="l-split-container p-services">
-    <div class="l-split-item l-split-item__body">
+<section class="l-container l-container--small l-split-alternate">
+  <div class="l-flex-split l-flex-split--center l-flex-split--small p-services">
+    <div class="l-flex-split__inner l-split-item__body">
       <?php perch_content('Tours', [
         'path' => '/',
         'template' => 'home/services-intro.html'
@@ -62,7 +62,7 @@
       ?>
     </div>
 
-    <div class="l-split-item l-split-item__img">
+    <div class="l-flex-split__inner l-split-item__img">
       <?php perch_content('Tours', [
         'path' => '/',
         'template' => 'home/services-img.html'

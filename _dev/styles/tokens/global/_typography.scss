@@ -25,5 +25,11 @@
   --font--s-size        :    1.2rem;
   --font--s-weight      :    var(--base-font-weight);
   --font--s-lh          :    var(--base-line-height);
+
+  @include mq($bp--small, max) {
+    --font--xxl-size : 3.2rem;
+    --font--xl-size : 2.2rem;
+    --font--l-size : 1.8rem;
+  }
 }
 

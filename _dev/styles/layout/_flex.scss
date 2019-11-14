@@ -1,15 +1,39 @@
 .l-flex-split {
   display: flex;
   justify-content: space-between;
+
+  @include mq($bp--medium, max) {
+    flex-direction: column;
+  }
 }
 
   .l-flex-split--center {
-    align-items: center;
+    
+    @include mq($bp--medium) {
+      align-items: center;
+    }
   }
 
 .l-flex-split--small {
 
-  .l-flex-split__inner {
-    width: 44%;
+  @include mq($bp--medium) {
+    .l-flex-split__inner {
+      flex-basis: 44%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      width: 44%;
+    }
+  }
+}
+
+
+@include mq($bp--medium, max) {
+  .l-md-order-1 {
+    order: 1;
+  }
+
+  .l-md-order-2 {
+    margin-top: var(--space--xl);
+    order: 2;
   }
 }

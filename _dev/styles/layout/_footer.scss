@@ -6,12 +6,36 @@
 .l-footer__inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.l-footer__info {
-  width: 30%;
-}
-
+.l-footer__info,
 .l-footer__form {
-  width: 45%;
+  width: 100%;
+}
+
+@include mq($bp--medium) {
+  .l-footer__info {
+    width: 40%;
+  }
+  
+  .l-footer__form {
+    width: 50%;
+  }
+}
+
+@include mq($bp--max) {
+  .l-footer__info {
+    width: 30%;
+  }
+  
+  .l-footer__form {
+    width: 45%;
+  }
+}
+
+@include mq($bp--medium, max) {
+  .l-footer__form {
+    margin-top: var(--space--xl);
+  }
 }

@@ -26,3 +26,27 @@
     }
   }
 }
+
+@include mq($bp--medium, max) {
+  .p-course-benefits {
+    margin-bottom: var(--space--xl);
+    order: 1;
+  }
+
+  .p-course-benefits-decoration {
+    order: 2;
+    margin-top: 0;
+  }
+}
+
+@include mq(400px, max) {
+  .p-course-benefits {
+    .c-icon-list__item {
+      flex-direction: column;
+    }
+
+    .c-icon-list__icon {
+      margin-bottom: var(--space--m);
+    }
+  }
+}

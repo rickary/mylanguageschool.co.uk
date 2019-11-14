@@ -1,0 +1,7 @@
+.p-form {
+  padding: var(--space--l);
+
+  @include mq($bp--max) {
+    padding: var(--space--xl);
+  }
+}

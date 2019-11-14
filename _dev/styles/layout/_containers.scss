@@ -1,8 +1,13 @@
 .l-container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--space--l);
+  padding-right: var(--space--l);
+
+  @include mq($bp--medium) {
+    padding-left: var(--space--m);
+    padding-right: var(--space--m);
+  }
 }
 
 .l-container--large {
@@ -11,13 +16,33 @@
 
 .l-container--medium {
   max-width: $container--medium;
+
+  @include mq($container--medium + 32px, max) {
+    padding-left: var(--space--xl);
+    padding-right: var(--space--xl);
+  }
+
+  @include mq($bp--small, max) {
+    padding-left: var(--space--l);
+    padding-right: var(--space--l);
+  }
 }
 
 .l-container--small {
   max-width: $container--small;
+
+  @include mq($container--small + 32px, max) {
+    padding-left: var(--space--xxl);
+    padding-right: var(--space--xxl);
+  }
+
+  @include mq($bp--small, max) {
+    padding-left: var(--space--xl);
+    padding-right: var(--space--xl);
+  }
 }
 
 section + section {
-  margin-top: 80px;
-  padding-top: 80px;
+  margin-top: var(--space--xxl);
+  padding-top: var(--space--xxl);
 }
