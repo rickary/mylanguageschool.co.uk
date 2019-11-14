@@ -16,7 +16,7 @@
   $url           = $domain.$_SERVER["REQUEST_URI"];
   $sitename      = "My Language School";
   $twittername   = "";
-  $sharing_image = '/images/default_fb_image.jpg';
+  $sharing_image = '/assets/img/social.jpg';
 
   PerchSystem::set_var('domain',$domain);
   PerchSystem::set_var('url',$url);
