@@ -1,5 +1,7 @@
 <?php perch_layout('global/head'); ?>
 
+<a href="#content" class="u-visually-hidden">Skip to main content</a>
+
 <header id="header" class="p-banner">
   <div class="p-banner__inner">
     <a href="/" class="p-banner__logo">
@@ -68,8 +70,10 @@
       
     </nav>
 
-    <button class="p-banner__trigger js-triggerNav">
+    <button id="trigger" aria-label="Menu Trigger" class="p-banner__trigger js-triggerNav">
       <span></span>
     </button>
   </div>
 </header>
+
+<div id="content">

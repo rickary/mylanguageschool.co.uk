@@ -1,3 +1,5 @@
+</div>
+
 <section class="l-footer d-footer">
   <span class="u-scrollto" id="contact"></span>
   <div class="l-container l-container--medium">
