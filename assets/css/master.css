@@ -1262,7 +1262,8 @@ section + section {
 
 .l-footer {
   margin-top: 160px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  padding-top: 80px; }
 
 .l-footer__inner {
   display: -webkit-box;
