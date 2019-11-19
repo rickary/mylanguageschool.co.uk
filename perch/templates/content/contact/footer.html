@@ -1,0 +1,52 @@
+<div class="d-footer__contact">
+  <h3 class="d-footer__contact-title">Get in touch</h3>
+  <address>
+    <ul class="c-icon-list">
+      <li class="c-icon-list__item">
+        <a href="mailto:<perch:content id="email" />" class="c-icon-list__link">
+          <span class="c-icon-list__icon">
+            <svg id="icon-email" viewBox="0 0 48 48">
+              <title>Email</title>
+              <path d="M40.031 16.031v-4.031l-16.031 10.031-16.031-10.031v4.031l16.031 9.938zM40.031 7.969c2.156 0 3.938 1.875 3.938 4.031v24c0 2.156-1.781 4.031-3.938 4.031h-32.063c-2.156 0-3.938-1.875-3.938-4.031v-24c0-2.156 1.781-4.031 3.938-4.031h32.063z"></path>
+            </svg>
+          </span>
+
+          <span class="c-icon-list__label">
+            <perch:content id="email" />
+          </span>
+        </a>
+      </li>
+      <li class="c-icon-list__item">
+        <a href="tel:<perch:content id="phone" />" class="c-icon-list__link">
+          <span class="c-icon-list__icon">
+            <svg id="icon-phone" viewBox="0 0 48 48">
+              <title>phone</title>
+              <path d="M13.219 21.563c2.906 5.625 7.594 10.313 13.219 13.219l4.406-4.406c0.563-0.563 1.406-0.75 2.063-0.469 2.25 0.75 4.688 1.125 7.125 1.125 1.125 0 1.969 0.844 1.969 1.969v7.031c0 1.125-0.844 1.969-1.969 1.969-18.75 0-34.031-15.281-34.031-34.031 0-1.125 0.844-1.969 1.969-1.969h7.031c1.125 0 1.969 0.844 1.969 1.969 0 2.531 0.375 4.875 1.125 7.125 0.188 0.656 0.094 1.5-0.469 2.063z"></path>
+            </svg>
+          </span>
+
+          <span class="c-icon-list__label">
+            <perch:content id="phone" />
+          </span>
+        </a>
+      </li>
+      <li class="c-icon-list__item">
+        <span class="c-icon-list__icon">
+          <svg id="address" viewBox="0 0 48 48">
+            <title>address</title>
+            <path d="M19.969 40.031h-9.938v-16.031h-6l19.969-18 19.969 18h-6v16.031h-9.938v-12h-8.063v12z"></path>
+          </svg>
+        </span>
+
+        <span class="c-icon-list__label">
+          <perch:content id="name" /><perch:if exists="address_1"><br/></perch:if>
+          <perch:content id="address_1" /><perch:if exists="address_2"><br/></perch:if>
+          <perch:content id="address_2" /><perch:if exists="address_city"><br/></perch:if>
+          <perch:content id="address_city" /><perch:if exists="address_postcode"><br/></perch:if>
+          <perch:content id="address_postcode" /><perch:if exists="address_country"><br/></perch:if>
+          <perch:content id="address_country" />
+        </span>
+      </li>
+    </ul>
+  </address>
+</div>

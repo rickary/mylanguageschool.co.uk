@@ -1438,3 +1438,80 @@ body.home:before {
 
 .d-footer {
   background-color: #DDE9DF; }
+
+.d-footer__copy {
+  font-size: 1.2rem;
+  font-size: var(--font--s-size);
+  font-weight: 300;
+  font-weight: var(--font--s-weight);
+  line-height: 1.5;
+  line-height: var(--font--s-lh);
+  margin-top: 48px;
+  margin-top: var(--space--xl);
+  text-align: center; }
+
+.d-footer__contact {
+  border-top: solid 1px #eee;
+  border-top: solid 1px var(--color-border);
+  margin-top: 32px;
+  margin-top: var(--space--l);
+  padding-top: 32px;
+  padding-top: var(--space--l); }
+
+.d-footer__contact-title {
+  font-size: 2.2rem;
+  font-size: var(--font--l-size);
+  font-weight: 400;
+  font-weight: var(--font--l-weight);
+  line-height: 1.5;
+  line-height: var(--font--l-lh);
+  margin-bottom: 32px;
+  margin-bottom: var(--space--l); }
+
+.d-footer__contact .c-icon-list__item {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 16px;
+  margin-bottom: var(--space--m); }
+  .d-footer__contact .c-icon-list__item a {
+    font-weight: 400;
+    color: #008d6f;
+    color: var(--color-primary); }
+
+.d-footer__contact .c-icon-list__link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.d-footer__contact .c-icon-list__icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #008d6f;
+  background-color: var(--color-primary);
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 48px;
+      flex-basis: 48px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 16px;
+  margin-right: var(--space--m);
+  width: 48px; }
+  .d-footer__contact .c-icon-list__icon svg {
+    fill: white;
+    height: auto;
+    width: 22px; }

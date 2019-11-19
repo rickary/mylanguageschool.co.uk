@@ -6,11 +6,20 @@
     <div class="l-footer__inner">
       <div class="l-footer__info">
         <?php perch_content('Footer Info'); ?>
+
+        <?php perch_content('Contact Details',  [
+          'page' => '*',
+          'template' => 'contact/footer.html'
+        ]); ?>
       </div>
       <div class="l-footer__form">
         <?php perch_layout('global/form'); ?>
       </div>
     </div>
+  </div>
+  <div class="l-container l-container--medium d-footer__copy">
+    <p>&copy; <?php echo Date('Y'); ?>
+    <?php perch_content('Company Detail'); ?></p> 
   </div>
 </section>
 

@@ -8,7 +8,8 @@
       <?php
         perch_pages_navigation(array(
           'navgroup' => 'learning-experiences',
-          'template' => 'list.html'
+          'template' => 'list.html',
+          'hide-extensions' => true
         )); 
       ?>
       
@@ -32,7 +33,8 @@
       <?php
         perch_pages_navigation(array(
           'navgroup' => 'schools',
-          'template' => 'list.html'
+          'template' => 'list.html',
+          'hide-extensions' => true
         )); 
       ?>
     
@@ -57,7 +59,8 @@
       <?php
         perch_pages_navigation(array(
           'navgroup' => 'tours',
-          'template' => 'list.html'
+          'template' => 'list.html',
+          'hide-extensions' => true
         )); 
       ?>
     </div>

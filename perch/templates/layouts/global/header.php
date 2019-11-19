@@ -34,6 +34,7 @@
         <?php
           perch_pages_navigation(array(
             'navgroup' => 'header',
+            'hide-extensions' => true
           )); 
         ?>
         <li class="c-nav__item has-sub-nav">
@@ -41,7 +42,8 @@
           <?php
             perch_pages_navigation(array(
               'navgroup' => 'learning-experiences',
-              'template' => 'sub-nav.html'
+              'template' => 'sub-nav.html',
+              'hide-extensions' => true
             )); 
           ?>
         </li>
@@ -50,7 +52,8 @@
           <?php
             perch_pages_navigation(array(
               'navgroup' => 'schools',
-              'template' => 'sub-nav.html'
+              'template' => 'sub-nav.html',
+              'hide-extensions' => true
             )); 
           ?>
         </li>
@@ -59,7 +62,8 @@
           <?php
             perch_pages_navigation(array(
               'navgroup' => 'tours',
-              'template' => 'sub-nav.html'
+              'template' => 'sub-nav.html',
+              'hide-extensions' => true
             )); 
           ?>
         </li>
