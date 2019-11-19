@@ -11,6 +11,8 @@
           'page' => '*',
           'template' => 'contact/footer.html'
         ]); ?>
+
+        <?php perch_content('Contact Details'); ?>
       </div>
       <div class="l-footer__form">
         <?php perch_layout('global/form'); ?>
