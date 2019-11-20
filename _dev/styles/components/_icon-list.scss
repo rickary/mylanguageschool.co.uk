@@ -2,6 +2,15 @@
   @include font(m);
 }
 
+  .c-icon-list--row {
+    display: flex;
+    align-item: center;
+
+     .c-icon-list__item + .c-icon-list__item {
+       margin-top: 0;
+     }
+  }
+
 .c-icon-list__item {
   align-items: center;
   display: flex;
@@ -10,7 +19,6 @@
     margin-top: var(--space--s);
   }
 }
-
 
   body.home .p-page-header .c-icon-list__item + .c-icon-list__item {
     margin-top: 0;

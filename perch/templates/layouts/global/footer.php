@@ -16,12 +16,15 @@
         <?php perch_layout('global/form'); ?>
       </div>
     </div>
-  </div>
-  <div class="l-container l-container--medium d-footer__copy">
+        </div>
+</section>
+
+<div class="d-footer__copy">
+  <div class="l-container l-container--medium">
     <p>&copy; <?php echo Date('Y'); ?>
     <?php perch_content('Company Detail'); ?></p> 
   </div>
-</section>
+</div>
 
 
 <script>

@@ -4,12 +4,13 @@
 
 .d-footer__copy {
   @include font(s);
-  margin-top: var(--space--xl);
-  text-align: center;
+  background-color: #C7D1C8;
+  padding-bottom: var(--space--l);
+  padding-top: var(--space--l);
 }
 
 .d-footer__contact {
-  border-top: solid 1px var(--color-border);
+  border-top: solid 1px rgba(black, 0.1);
   margin-top: var(--space--l);
   padding-top: var(--space--l);
 }
