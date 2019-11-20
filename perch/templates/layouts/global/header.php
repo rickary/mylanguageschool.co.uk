@@ -47,16 +47,16 @@
             )); 
           ?>
         </li>
-        <li class="c-nav__item has-sub-nav">
-          <span class="c-nav__link no-link">Schools</span>
+        <!-- <li class="c-nav__item has-sub-nav">
+          <span class="c-nav__link no-link">Schools</span> -->
           <?php
-            perch_pages_navigation(array(
-              'navgroup' => 'schools',
-              'template' => 'sub-nav.html',
-              'hide-extensions' => true
-            )); 
+            // perch_pages_navigation(array(
+            //   'navgroup' => 'schools',
+            //   'template' => 'sub-nav.html',
+            //   'hide-extensions' => true
+            // )); 
           ?>
-        </li>
+        <!-- </li> -->
         <li class="c-nav__item has-sub-nav">
           <span class="c-nav__link no-link">Tours</span>
           <?php
