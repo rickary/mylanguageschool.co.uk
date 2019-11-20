@@ -27,6 +27,10 @@
   }
 }
 
+.p-course-benefits__img {
+  text-align: center;
+}
+
 @include mq($bp--medium, max) {
   .p-course-benefits {
     margin-bottom: var(--space--xl);

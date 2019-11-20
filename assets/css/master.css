@@ -1110,6 +1110,9 @@ body.home .p-page-header .c-icon-list__item + .c-icon-list__item {
     fill: white;
     width: 22px; }
 
+.p-course-benefits__img {
+  text-align: center; }
+
 @media screen and (max-width: 767px) {
   .p-course-benefits {
     margin-bottom: 48px;
@@ -1398,8 +1401,13 @@ section + section {
             order: 2; } }
 
 .l-flex-split svg {
-  height: auto;
-  width: 100%; }
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 767px) {
+  .l-flex-split svg {
+    height: auto;
+    width: 100%; } }
 
 @media screen and (min-width: 768px) {
   .l-split-alternate:nth-child(even) .l-split-item__body {

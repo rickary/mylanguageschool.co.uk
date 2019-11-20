@@ -1,6 +1,14 @@
+
 .l-flex-split svg {
-  height: auto;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include mq($bp--medium, max) {
+  .l-flex-split svg {
+    height: auto;
+    width: 100%;
+  }
 }
 
 @include mq($bp--medium) {
