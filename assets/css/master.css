@@ -259,15 +259,7 @@ rgba(0,0,0,0.2);
   line-height: 1.2;
   line-height: var(--font--xxl-lh); }
 
-.c-wysiwyg h2, .c-wysiwyg .font--xl {
-  font-size: 3.2rem;
-  font-size: var(--font--xl-size);
-  font-weight: 700;
-  font-weight: var(--font--xl-weight);
-  line-height: 1.1875;
-  line-height: var(--font--xl-lh); }
-
-.c-wysiwyg h3, .c-wysiwyg .font--l {
+.c-wysiwyg h2, .c-wysiwyg .font--l {
   font-size: 2.2rem;
   font-size: var(--font--l-size);
   font-weight: 400;
@@ -275,7 +267,16 @@ rgba(0,0,0,0.2);
   line-height: 1.5;
   line-height: var(--font--l-lh); }
 
-.c-wysiwyg h4, .c-wysiwyg .font--ml {
+.c-wysiwyg h3, .c-wysiwyg .font--m {
+  font-size: 1.6rem;
+  font-size: var(--font--m-size);
+  font-weight: 300;
+  font-weight: var(--font--m-weight);
+  line-height: 1.5;
+  line-height: var(--font--m-lh);
+  font-weight: bold; }
+
+.c-wysiwyg h4, .c-wysiwyg .font--m {
   font-size: 1.6rem;
   font-size: var(--font--m-size);
   font-weight: 300;
