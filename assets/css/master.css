@@ -1455,9 +1455,9 @@ body.home:before {
 .d-footer {
   background-color: #DDE9DF; }
 
-.d-footer .c-wysiwyg h3 + p {
-  margin-top: 32px;
-  margin-top: var(--space--l); }
+.d-footer .c-wysiwyg h3 {
+  margin-bottom: 32px;
+  margin-bottom: var(--space--l); }
 
 .d-footer__copy {
   font-size: 1.2rem;
