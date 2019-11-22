@@ -58,7 +58,7 @@
           ?>
         <!-- </li> -->
         <li class="c-nav__item has-sub-nav">
-          <span class="c-nav__link no-link">Tours</span>
+          <span class="c-nav__link no-link">Seasonal Tours</span>
           <?php
             perch_pages_navigation(array(
               'navgroup' => 'tours',
