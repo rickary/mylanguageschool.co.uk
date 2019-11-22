@@ -1,0 +1,56 @@
+<perch:if exists="title">
+  <section class="p-learning-methods">
+    <div class="l-container l-container--small">
+      <h2 class="p-learning-methods__title">
+        <perch:content id="title" type="text" label="Title" />
+      </h2>
+
+      <perch:repeater label="Methods" id="methods">
+        <perch:before><div class="l-flex-split l-flex-split--small"></perch:before>
+          <div class="l-flex-split__inner p-learning-method">
+            <h3 class="p-learning-method__title"><perch:content id="method_title" label="Title" type="text" /></h3>
+            <ul class="c-icon-list">
+              <li class="c-icon-list__item">
+                <svg viewBox="0 0 48 48" class="c-icon-list__icon c-icon-list__icon--tick">
+                  <title>tick</title>
+                  <path d="M18 32.344l21.188-21.188 2.813 2.813-24 24-11.156-11.156 2.813-2.813z"></path>
+                </svg>
+                <span class="c-icon-list__label">
+                  <perch:content id="label_1" label="Item One" type="text" />
+                </span>
+              </li>
+              <perch:if exists="label_2">
+                <li class="c-icon-list__item">
+                  <svg viewBox="0 0 48 48" class="c-icon-list__icon c-icon-list__icon--tick">
+                    <title>tick</title>
+                    <path d="M18 32.344l21.188-21.188 2.813 2.813-24 24-11.156-11.156 2.813-2.813z"></path>
+                  </svg>
+                  <span class="c-icon-list__label">
+                    <perch:content id="label_2" label="Item Two" type="text" />
+                  </span>
+                </li>
+              </perch:if>
+              <perch:if exists="label_3">
+                <li class="c-icon-list__item">
+                  <svg viewBox="0 0 48 48" class="c-icon-list__icon c-icon-list__icon--tick">
+                    <title>tick</title>
+                    <path d="M18 32.344l21.188-21.188 2.813 2.813-24 24-11.156-11.156 2.813-2.813z"></path>
+                  </svg>
+                  <span class="c-icon-list__label">
+                    <perch:content id="label_3" label="Item Three" type="text" />
+                  </span>
+                </li>
+              </perch:if>
+            </ul>
+          </div>
+        <perch:after></div></perch:after>
+      </perch:repeater>
+
+     
+        
+
+      
+
+    </div>
+  </section>
+</perch:if>

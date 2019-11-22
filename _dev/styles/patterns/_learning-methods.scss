@@ -1,0 +1,32 @@
+.p-learning-methods {
+  border-top: solid 1px var(--color-border);
+  padding-top: var(--space--xxl);
+}
+
+.p-learning-methods__title {
+  @include font(l);
+  margin-bottom: var(--space--xl);
+  text-align: center;
+}
+
+.p-learning-method {
+
+  @include mq($bp--medium, max) {
+    + .p-learning-method {
+      margin-top: var(--space--l);
+    }
+  }
+}
+
+.p-learning-method__title {
+  @include font(l);
+  margin-bottom: var(--space--m);
+}
+
+.p-learning-method {
+  .c-icon-list__item + .c-icon-list__item {
+    border-top: solid 1px var(--color-border);
+    margin-top: var(--space--s);
+    padding-top: var(--space--s);
+  }
+}

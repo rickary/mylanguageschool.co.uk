@@ -6,4 +6,6 @@
 
 <?php perch_layout('learning/learning-detail'); ?>
 
+<?php perch_content('Learning Methods'); ?>
+
 <?php perch_layout('global/footer'); ?>
