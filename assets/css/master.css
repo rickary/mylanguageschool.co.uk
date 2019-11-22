@@ -930,7 +930,9 @@ sans-serif;
   display: flex;
   align-item: center; }
   .c-icon-list--row .c-icon-list__item + .c-icon-list__item {
-    margin-top: 0; }
+    margin-top: 0;
+    margin-left: 8px;
+    margin-left: var(--space--s); }
 
 .c-icon-list__item {
   -webkit-box-align: center;
