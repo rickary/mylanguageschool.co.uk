@@ -14,10 +14,10 @@
         break;
 
     default :
-        define("PERCH_DB_USERNAME", 'mylanguageschool');
-        define("PERCH_DB_PASSWORD", 'iNc.wBIvKMxY6uK5aqFUWEYT');
-        define("PERCH_DB_SERVER", "mylanguageschool.mysql.eu2.frbit.com");
-        define("PERCH_DB_DATABASE", "mylanguageschool");
+        define("PERCH_DB_USERNAME", 'languageschool');
+        define("PERCH_DB_PASSWORD", 'p.vWYNuZ80x5moLIs2oE2q2n');
+        define("PERCH_DB_SERVER", "languageschool.mysql.eu2.frbit.com");
+        define("PERCH_DB_DATABASE", "languageschool");
         break;
     }
 
